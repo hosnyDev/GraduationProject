@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="table">
+        <item>الفرقه الاولى - نظم</item>
+        <item>الفرقه الاولى - تجاره</item>
+
+        <item>الفرقه الثانيه - نظم</item>
+        <item>الفرقه الثانيه - تجاره</item>
+
+        <item>الفرقه الثالثه - نظم</item>
+        <item>الفرقه الثالثه - تجاره</item>
+
+        <item>الفرقه الرابعه - نظم</item>
+        <item>الفرقه الرابعه - تجاره</item>
+
+    </string-array>
+    <string name="A">الاجابة الصحيحة رقم 1</string>
+    <string name="B">الاجابة الصحيحة رقم 2</string>
+    <string name="C">الاجابة الصحيحة رقم 3</string>
+    <string name="D">الاجابة الصحيحة رقم 4</string>
+    <string name="Finish">Finish</string>
+    <string name="Next">Next</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"التنقل إلى الشاشة الرئيسية"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"التنقل إلى أعلى"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"خيارات إضافية"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"تم"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"عرض الكل"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"اختيار تطبيق"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"إيقاف"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"تشغيل"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"القائمة+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"بحث…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"محو طلب البحث"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"طلب البحث"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"بحث"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"إرسال طلب البحث"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"البحث الصوتي"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"مشاركة مع"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"مشاركة مع <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"تصغير"</string>
+    <string name="action_settings">Settings</string>
+    <string name="add_image">اضافه صوره</string>
+    <string name="app_name">motatwera</string>
+    <string name="arabic_english">عربى | انجليزى</string>
+    <string name="arelo">أذا قمت بالخروج سوف تخسر نتائج هذا الاختبار</string>
+    <string name="book_nav">الكتب</string>
+    <string name="cancel">إلغاء</string>
+    <string name="change_book_setting">أعدادات الكتاب</string>
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"تفعيل"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"‏لن يعمل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تفعيل خدمات Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"‏تفعيل خدمات Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"تثبيت"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي لا تتوفر على جهازك."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"‏الحصول على خدمات Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"‏مدى توفّر خدمات Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"‏خطأ في خدمات Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"‏لدى <ns1:g id="APP_NAME">%1$s</ns1:g> مشكلة في خدمات Google Play. يُرجى إعادة المحاولة."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play التي لا يوفرها جهازك."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"تحديث"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> ما لم يتم تحديث خدمات Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"‏تحديث خدمات Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"‏لن يتم تشغيل <ns1:g id="APP_NAME">%1$s</ns1:g> بدون خدمات Google Play، والتي يتم تحديثها حاليًا."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"‏يجب توفر إصدار جديد من خدمات Google Play. سيتم تحديثها تلقائيًا قريبًا."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"فتح على الهاتف"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"تسجل الدخول"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"‏تسجيل الدخول عبر Google"</string>
+    <string name="complete">تهانينا لك لقد اكملت اختبار الفصل الاول بنجاح .... نتيجتك :</string>
+    <string name="con">تأكد</string>
+    <string name="create_new_account">ليس لديك حساب ؟ \n انشئ حساب جديد</string>
+    <string name="crop_image_activity_no_permissions">إلغاء؛ الأذونات المطلوبة غير ممنوحة</string>
+    <string name="crop_image_activity_title"/>
+    <string name="crop_image_menu_crop">قُصّ</string>
+    <string name="crop_image_menu_flip">اقلب</string>
+    <string name="crop_image_menu_flip_horizontally">اقلب أفقيًا</string>
+    <string name="crop_image_menu_flip_vertically">اقلب رأسيًا</string>
+    <string name="crop_image_menu_rotate_left">أدر عكس اتجاه عقارب الساعة</string>
+    <string name="crop_image_menu_rotate_right">أدر</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="emotatwera">المتطورة</string>
+    <string name="exit_the_program">الخروج من التطبيق</string>
+    <string msgid="4133737464567140336" name="fcm_fallback_notification_channel_label">"متنوعة"</string>
+    <string name="find_us">خريطه الوصول</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_nav">الرئيسية</string>
+    <string name="id_number">كود الطالب</string>
+    <string name="java">جافا</string>
+    <string name="language">اللغة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="map">الخريطة</string>
+    <string name="map_location">جوجل ماب</string>
+    <string name="menu_nav">القائمه</string>
+    <string name="muste">يجب اضافه رسالة</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="not">لا يوجد اتصال بالانترنت حاول الاتصال</string>
+    <string name="ok">تم</string>
+    <string name="ok_">تم</string>
+    <string name="password">كلمه المرور</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="pick_image_intent_chooser_title">اختر مصدرًا</string>
+    <string name="please_select">يجب اختيار اجابة</string>
+    <string name="post">نشر</string>
+    <string name="profile_nav">الملف الشخصى</string>
+    <string name="q">السؤال :</string>
+    <string name="question_0_5">مجموعه الاسئلة</string>
+    <string name="register">تسجيل</string>
+    <string name="scor">النتيجة:</string>
+    <string name="score_0">النتيجة</string>
+    <string msgid="146198913615257606" name="search_menu_title">"البحث"</string>
+    <string name="setting">الاعدادات</string>
+    <string name="some">يجب اضافه رسالة</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="table_s">الجداول الدراسيه</string>
+    <string name="table_university_hear">الجداول الدراسية</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="type_a_description">الوصف</string>
+    <string name="type_a_message">اكتب رساله</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="view_website_institute">الموقع الألكترونى</string>
+    <string name="website">الموقع الرسى</string>
+    <string name="your_comment_here">أضافه تعليق</string>
+    <string name="zxing_app_name">ماسح الرمز الشريطي</string>
+    <string name="zxing_button_ok">موافق</string>
+    <string name="zxing_msg_camera_framework_bug">عفوا، حدثت مشكلة في كاميرا جهاز Android. قد تحتاج إلى إعادة تشغيل الجهاز.</string>
+    <string name="zxing_msg_default_status">قم بوضع الرمز الشريطي داخل حدود صورة الكاميرا ليتم مسحه.</string>
+</resources>

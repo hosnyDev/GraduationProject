@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.academy.motatwera">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:persistent="true"
+        android:process=":remote"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl">
+        <activity
+            android:name=".Fragment.Social_Home.comment.CommentsActivity"
+            android:theme="@style/noActionBarTheme"></activity>
+        <activity
+            android:name=".Fragment.Social_Home.ViewImageHome"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Social_Home.Create_New_Post"
+            android:label="New Post"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.Main_Bassem_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Fragment.Book.Book_Bassem.CHAT.chat_bassem" />
+        <activity
+            android:name=".Fragment.Book.Book_Ezzat.Q_CZ1.Qcz1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Ezzat.Chapter_Z_Book"
+            android:label="Book D.Ezzat" />
+        <activity
+            android:name=".Fragment.Book.Book_Ezzat.Chapter_1_zActivity"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.QUIZ.Q_CB5.Qcb5Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.QUIZ.Q_CB4.Qcb4Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.QUIZ.Q_CB3.Qcb3Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.QUIZ.Q_CB2.Qcb2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.QUIZ.Q_CB1.Qcb1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.BOOK.Chapter_5_bassem.Chapter_5_b_Activity"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.BOOK.Chapter_4_bassem.Chapter_4_b_Activity"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.BOOK.Chapter_3_bassem.Chapter_3_b_Activity"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.BOOK.Chapter_2_bassem.Chapter_2_b_Activity"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".Fragment.Book.Book_Bassem.BOOK.Chapter_1_bassem.Chapter_1_b_Activity"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".TableActivity"
+            android:theme="@style/FullScreen" />
+        <activity
+            android:name=".SettingActivity"
+            android:label="Setting"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="Profile"
+            android:parentActivityName=".MainActivity"
+            android:windowSoftInputMode="adjustPan|stateAlwaysHidden" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".WebsiteActivity"
+            android:label="Motatawera Page"
+            android:parentActivityName=".MainActivity" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/noActionBarTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/noActionBarTheme"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/noActionBarTheme" />
+
+        <receiver
+            android:name=".Services.Alarm"
+            android:process=":remote" />
+        <receiver android:name=".Services.AutoStart">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Services.YourService"
+            android:enabled="true"
+            android:process=":remote" />
+    </application>
+
+</manifest>

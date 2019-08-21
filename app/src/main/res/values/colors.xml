@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#039BE5</color>
+    <color name="colorAccent">#212121</color>
+
+    <color name="white">#fff</color>
+    <color name="b2b2b2">#2b2b2b</color>
+    <color name="buttonBackground">#6F1E88E5</color>
+    <color name="buttonText">#3C1A1818</color>
+
+
+    <color name="back1">#7c4dff</color>
+    <color name="back2">#ffb300</color>
+    <color name="back3">#00bfa5</color>
+    <color name="back4">#ff4081</color>
+    <color name="back5">#1E88E5</color>
+    <color name="back6">#FF3D00</color>
+
+    <color name="un_like">#747474</color>
+    <color name="like">#1E88E5</color>
+
+
+
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_C5_B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Fragment.Book.Book_Bassem.BOOK.Chapter_5_bassem.Chapter_5_b_Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="الفصل الخامس \n لغة css "
+                android:textColor="#C62828"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="5-1 مقدمة عن  CSS"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txt1C5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="لغة CSS هى اختصار Cascading Style Sheets (صفحات الانماط الانسيابية) وهى لغة تصميم لتحديد الشكل الذى تظهر به الوسوم الخاصة بلغة HTML مثل تصميم شكل الخطوط والصور والخلفيات والالوان والهوامش والجداول وغيرها. فلغة HTML تضع الهيكل والمحتويات للصفحة واما لغة CSS فهى تساعد على تنسيق وتصميم محتويات هذه الصفحة.
+                والشكل العام لاوامر CSS كالتالى:"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt2C5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/shape_text"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Selector {Property1: Value;
+            Property2: Value;
+            Property3: Value;
+            …}
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt3C5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="•	Selector: هو وسم HTML المراد تطبيق الخصائص علية
+•	Property: الخصائص التى نريد التحكم بها وتنتهي بنقطتين (:)
+
+•	Value: القيم المختلفة لكل خاصية. فلكل خاصية مجموعة قيم وتنتهي بفاصلة منقوطة (;). واذا كانت خاصية وحيدة موجودة فمن الممكن عدم وضع الفاصلة المنقوطة (;) ولكن اذا كان هناك اكثر من خاصية فيجب الفصل بين كل خاصية والاخرى بالفاصلة المنقوطة (;)."
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="وامثلة لذلك:"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt4C5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/shape_text"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="p {background-color: red;
+   font-family: arial; }
+body {color: blue }
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txt5C5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="وتوجد ثلاثة طرق لادراج اكواد CSS فى صفحة HTML:
+1-	كتابة كود CSS ضمن وسوم HTML باستخدام خاصية style
+2-	كتابة كود CSS فى الجزء head فى صفحة HTML
+3-	كتابة كود CSS فى ملف خارجى
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="ونستطيع ان نتأكد من صحة ملفات CSS بالدخول على موقع "
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="gsaw.w3.org/css-validator/"
+                android:textColor="#3F51B5"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="ثم نرفع الملف وبعد ذلك نضغط على تدقيق فأذا كان ملف CSS ليس به اى اخطاء ستظهر هذه الصورة:   واذا كان هناك اى اخطاء شتظهر مجموعة الاخطاء الموجودة فى الملف. وحتى نتعلم لغة CSS بسهولة سوف نقسمها الى اقسام:"
+                android:textColor="#941F1F"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/txt6C5b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="1.	الالوان والخلفيات
+2.	الخطوط والنصوص
+3.	الصور
+4.	الاطارات
+5.	الجداول
+6.	الروابط
+7.	تجميع العناصر
+8.	خصائص اخرى
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/up_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_up" />
+
+</RelativeLayout>

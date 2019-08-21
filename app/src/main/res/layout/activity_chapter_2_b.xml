@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_C2_B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Fragment.Book.Book_Bassem.BOOK.Chapter_2_bassem.Chapter_2_b_Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="الفصل الثانى \n تطبيقات عملية على برامج الوسائط المتعددة "
+                android:textColor="#C62828"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="2-1  برنامج Adobe Animate CC 2017    :
+مقدمة لبرنامج فلاش
+"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt1C2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="يعد برنامج Adobe Animate من برامج الفلاش الشيقة والممتعة والتي يمكنك من خلالها تصميم تأثيرات حركية وصوتية للنصوص والصور، وتحويلها إلى ملفات يمكنك استخدامها عند إنشاء صفحات على الإنترنت ، لإضافة تأثيرات جميلة في صفحتك
+
+كما أصبحت تقنية فلاش إحدى أهم وسائل إثراء الويب؛ لما تُتيحه هذه التقنية من طرائق مبدعة ومبتكَرَة لإعداد العروض التفاعلية
+
+Interactive movies
+ويُسمَّى العرض التفاعلي بهذا الاسم لأنه يُتيح تفاعل المستخدم معه، إذ يستطيع الُمستخدم (عن طريق الفأرة أو لوحة المفاتيح) أن ينتقل كما يرغب بين عناصر العرض (Objects) ، وأن يقوم بإدخال المعلومات في النماذج، فضلا على العديد من العمليات التفاعلية الأخرى.
+
+ويمكن من خلال برنامج الفلاش :
+	إنشاء دروس تعليمية تفاعلية
+	تصميم عروض فيديو متحركة (أفلام كرتون و... غير ذلك (
+	تصميم ألعاب رائعة وعالية الجودة.
+	إنشاء وتصميم مواقع إنترنت مميزة وعالية الجودة."
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="التعرف على البرنامج Adobe Animate CC : "
+                android:textColor="#A84B4B"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:id="@+id/cbb_a"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_a" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="أولا :  شاشة البدء :"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/cbb_b"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_b" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt2C2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="1-	تعرض قائمة بأسماء الملفات التي فتحت سابقا.
+2-	إنشاء ملف جديد.
+3-	فتح ملف جديد باستخدام قالب.
+4-	استكشاف أساسيات البرنامج.
+5-	استكشاف)  تعلم ( مهارات فلاش متقدمة .
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="ثانيا :  الشاشة الرئيسية :"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/cbb_c"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_c" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txt3C2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="1-	شريط القوائم ( Menu Bar )
+2-	طريقة العرض  ( View )
+3-	اسم المستند ( Document Name )
+4-	المشهد النشط  ( Scene )
+5-	أيقونات التحرير.
+6-	مسرح العمل ( Stage )
+7-	شريط الزمن ( Timeline  )
+8-	نافذة إظهار وإخفاء مجموعة الألواح
+9-	شريط الأدوات ( Tools Bar )
+10-	لوح الخصائص ( Properties ) و المكتبة  ( Library )
+
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="2-2 برنامج Adobe Photoshop CS6    :"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:id="@+id/cbb_d"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_d" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txt4C2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="هو من اهم البرامج الخاصة بتخليق و تصميم ومعالجة الصور ويستخدم فى تجميع الصور وتوظيف الاشكال المختلفه مع بعضها لتكون صورة جمالية ويمتاز بوجود تأثيرات متعددة و فلاتر اضاءة باشكال مختلفة بالاضافة الى استخدامه فى تصميم المطبوعات والمواقع والاسطوانات و فصل الالوان ."
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="شرح الشاشة الرئيسية للبرنامج وصندوق الادوات :"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:id="@+id/cbb_e"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_e" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="2-3 برنامج AVS Video Editor    :"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:id="@+id/cbb_f"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_f" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txt5C2b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal"
+                android:text="لفتح البرنامج ,
+                   من start programs ,
+                   AVS Video Editor"
+                android:textColor="#2b2b2b"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/cbb_g"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_g" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <ImageView
+                android:id="@+id/cbb_h"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/cbb_h" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/up_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_up" />
+
+
+</RelativeLayout>

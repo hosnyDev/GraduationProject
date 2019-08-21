@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">motatwera</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="password">كلمه المرور</string>
+
+    <string-array name="table">
+        <item>الفرقه الاولى - نظم</item>
+        <item>الفرقه الاولى - تجاره</item>
+
+        <item>الفرقه الثانيه - نظم</item>
+        <item>الفرقه الثانيه - تجاره</item>
+
+        <item>الفرقه الثالثه - نظم</item>
+        <item>الفرقه الثالثه - تجاره</item>
+
+        <item>الفرقه الرابعه - نظم</item>
+        <item>الفرقه الرابعه - تجاره</item>
+
+    </string-array>
+
+    <string name="language">اللغة</string>
+    <string name="view_website_institute">الموقع الألكترونى</string>
+    <string name="find_us">خريطه الوصول</string>
+    <string name="table_university_hear">الجداول الدراسية</string>
+    <string name="change_book_setting">أعدادات الكتاب</string>
+    <string name="arabic_english">عربى | انجليزى</string>
+    <string name="exit_the_program">الخروج من التطبيق</string>
+
+    <string name="map">الخريطة</string>
+
+    <string name="table_s">الجداول الدراسيه</string>
+    <string name="setting">الاعدادات</string>
+    <string name="website">الموقع الرسى</string>
+    <string name="map_location">جوجل ماب</string>
+    <string name="logout">تسجيل الخروج</string>
+
+
+    <string name="home_nav">الرئيسية</string>
+    <string name="book_nav">الكتب</string>
+    <string name="profile_nav">الملف الشخصى</string>
+    <string name="menu_nav">القائمه</string>
+    <string name="create_new_account">ليس لديك حساب ؟ \n انشئ حساب جديد</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="id_number">كود الطالب</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="register">تسجيل</string>
+    <string name="java">جافا</string>
+    <string name="type_a_message">اكتب رساله</string>
+    <string name="your_comment_here">أضافه تعليق</string>
+    <string name="add_image">اضافه صوره</string>
+    <string name="type_a_description">الوصف</string>
+    <string name="post">نشر</string>
+    <string name="emotatwera">المتطورة</string>
+    <string name="score_0">النتيجة</string>
+    <string name="question_0_5">مجموعه الاسئلة</string>
+    <string name="some">يجب اضافه رسالة</string>
+    <string name="muste">يجب اضافه رسالة</string>
+    <string name="please_select">يجب اختيار اجابة</string>
+    <string name="ok">تم</string>
+    <string name="q">السؤال :</string>
+    <string name="con">تأكد</string>
+    <string name="scor">النتيجة:</string>
+    <string name="A">الاجابة الصحيحة رقم 1</string>
+    <string name="B">الاجابة الصحيحة رقم 2</string>
+    <string name="C">الاجابة الصحيحة رقم 3</string>
+    <string name="D">الاجابة الصحيحة رقم 4</string>
+    <string name="Next">Next</string>
+    <string name="Finish">Finish</string>
+    <string name="complete">تهانينا لك لقد اكملت اختبار الفصل الاول بنجاح .... نتيجتك :</string>
+    <string name="not">لا يوجد اتصال بالانترنت حاول الاتصال</string>
+    <string name="ok_">تم</string>
+    <string name="arelo">أذا قمت بالخروج سوف تخسر نتائج هذا الاختبار</string>
+    <string name="cancel">إلغاء</string>
+
+
+</resources>

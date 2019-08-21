@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_C1_z"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.Book.Book_Ezzat.Chapter_1_zActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="70dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="البرمجة"
+                android:textColor="#C62828"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="  البرمجة:"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="هي مجموعه من االوامر و التعليمات التي يتم كتابتها و ترتيبها بشكل معين لتحقيق
+وظيفة او هدف محدد ."
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="خطوات فتح البرنامج: -"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:text="Start , All Programs , NetBeans , NetBeans IDE 8.2"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="عمل مشروع جديد   "
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/a_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/a_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="الصفحة الرئيسية للبرنامج"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:padding="8dp"
+                android:text="إلنشاء مشروع جديد"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/b_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/b_z" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/c_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/c_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txtz3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="نختار اللغة Java و نوع المشروع Application Java ثم نضغط Next"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/d_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/d_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txtz4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="1 .اسم المشروع
+2 .مكان حفظ المشروع
+3 .في حالة انشاء مشروع سريع لتجربة و تعلم أكواد Java يتم الضغط على عالمة √
+ليتم انشاء Class Main لكتابة األكواد و تجربتها , اما في حالة انشاء Java
+Forms فال نحتاج استخدام Class Main
+Finish الضغط. 4"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/e_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/e_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/f_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/f_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txtz5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="1 .شريط القوائم
+2 .تنفيذ الكود وتشغيله
+3 .اسم الملف المفتوح
+4 .التنقل بين المشروعات المفتوحة
+5 .محتويات المشروع الحالي
+6 .الكالس الرئيسي للمشروع )اسم المشروع(
+7 .دالة التنفيذ و يتم كتابه أكواد محتوى الدالة بين { }"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="16dp"
+                android:text="ملحوظة : النصوص باللون الرمادى يمكن االستغناء عنها النها مجرد تعليق على الكود
+المكتوب و ال يقوم البرنامج بالتعامل معها اثناء التنفيذ"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Java Form انشاء"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/g_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/g_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txtz7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="في حالة انشاء Form Java
+يتم الغاء العالمة من Class Main الن ال حاجة اليها
+الضغط انهاء"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/h_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/h_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="المشروعات المفتوحة وتحتوي على"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="1 .المشروع الجديد TestFormوليس به أى ملفات داخلية
+2 .المشروع القديم Wellcome و به الملف الخاص بـ Class M"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="انشاء Form جديدة"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="يوجد نوعين من الـ Form أو النوافذ فى لغة الجافا"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="النوع االول: jForme وهو ينتمي للحزمة swing"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/txtz11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="النوع الثاني: Forme وهو ينتمي للحزمة awt"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="والفرق بينهما أن farme يأخذ شكل نظام التشغيل الذي يعمل عليه فى حين jfarme ال يتغير
+شكله بتغير نظام التشغيل"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="لأنشاء Form Java جديدة"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="تتبع الحزمة swnig"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/i_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/i_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="1 .كليك يمين على اسم المشروع"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="New .2"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="JForme Form .3"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/j_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/j_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="1 .كتابة اسم الـ Form"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="Finish الضغط. 2"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/k_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/k_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+
+                android:text="1 .شريط القوائم"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="2 .تنفيذ البرنامج"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="3 .محتوى تصميم الـ Form"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="4 .قائمة أدوات التصميم "
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="5 .قائمة الخصائص"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="6 .مكان كتابة األكواد"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="7 .الرجوع الى وضع التصميم"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="برنامج بسيط لعرض نص عند الضغط على زر "
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtz24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:padding="8dp"
+                android:text="قم بإضافة عنصر Label"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/l_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/l_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="لمسح النص الموجود من خاصية Text او النقر عليه كليك يمين واختيار text Edit ومسح
+النص"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/m_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/m_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="لتغير اسم العنصر عنده استدعائه في أكواد البرمجة"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="الضغط كليك يمين واختيار Name Variable C"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/n_z"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/n_z" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/o_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/o_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="إضافة زر حتى يتم برمجته"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/p_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/p_z" />
+
+            <TextView
+                android:id="@+id/txtz29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="ضبط الخط من خاصية font"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/q_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/q_z" />
+
+            <TextView
+                android:id="@+id/txtz30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="لكتابة كود برمجة يعمل عند نقر الماوس على الزر"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/r_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/r_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:text="Events >> Mouse>> MouseClicked"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/s_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/s_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="تم فتح صفحة لكتابة كود البرمجة و تم تجهيز الكود ليعمل عند النقر بالماوس على jButton1
+و يتم كتابة األكواد بين حدود اقواس المجموعة"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/t_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/t_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtz33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="lblShow اسم العنصر الذى تم تسميته
+setText تستخدم لوضع نص في صندوق عرض او متغير نصى
+لتجربة تشغيل البرنامج , كليك يمين و اختيار File R"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/u_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/u_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="عند الضغط على الزر"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/v_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/v_z" />
+
+            <TextView
+                android:id="@+id/txtz49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="للرجوع لالكود , يتم الضغط على عالمة X و للرجوع الى التصميم يتم الضغط على Design"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/w_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/w_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="monospace"
+                android:padding="8dp"
+                android:text="أدوات البرنامج: -"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txtz34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Button \n زر يكتب بداخلها كود التنفيذ لألمر."
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Check Box \n الختيار شيء أو عدم اختياره. ."
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Combo Box \n .منسدلة قائمة"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Label \n . لعرض نص ال يمكن التعديل فيه"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Text Box \n . صندوق ادخال االرقام والنصوص "
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="picture Box \n . إلضافة صوره"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="Group Box \n .  تستخدم لتجميع الاشياء "
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/shape_text"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="List Box \n .  عرض مجموعه عناصر "
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="ملحوظه: \n -طريقه ملئ البيانات Box List نخطر item Edit."
+                android:textColor="#941F1F"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="عند عمل أي برنامج لابد من تحديد ما هي المدخالت الى البرنامج وما هي
+العمليات التي تتم وما هي المخرجات من البرنامج فمثل عند جمع رقمين."
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txtz51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="المدخالت put In :هي الرقم االول والثاني"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="العمليات Processing :هي عمليه الجمع نفسها"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="المخرجات Put Out :هي نتيجة جمع الرقمين "
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="تصميم الشاشات"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/x_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/x_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:padding="8dp"
+                android:text="طريقة إضافة صورة"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtz41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="سحب عنصر Label على الشاشة "
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="كيك يمين ثم Properties"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/y_z"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:src="@drawable/y_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="16sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+
+                <pl.droidsonroids.gif.GifImageView
+                    android:id="@+id/z_z"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/z_z" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="4dp"
+                    android:layout_weight="1"
+                    android:fontFamily="monospace"
+                    android:gravity="right"
+                    android:padding="8dp"
+                    android:text="لعمل Group مثل"
+                    android:textColor="#941F1F"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtz43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="إضافة عنصر panel  من األدوات"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="ثم وضع بداخله العناصر المراد وضعها داخل group"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/aa_z"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/aa_z" />
+
+            <TextView
+                android:id="@+id/txtz45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="وضع عنصر لكتابة عنوان الGroup "
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/bb_z"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/bb_z" />
+
+            <TextView
+                android:id="@+id/txtz46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="تغير خاصية Text"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/cc_z"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/cc_z" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:padding="8dp"
+                android:text="لعمل List مثل "
+                android:textColor="#941F1F"
+                android:textSize="18sp" />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/dd_z"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:src="@drawable/dd_z" />
+
+            <TextView
+                android:id="@+id/txtz47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="إضافة عنصر List من الادوات"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtz48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="من خاصية model يتم وضع محتويات ال List "
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/quiz_c1_dz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="monospace"
+        android:text="start Quiz"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

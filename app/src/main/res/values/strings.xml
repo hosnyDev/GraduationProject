@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">motatwera</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email">Email</string>
+    <string name="map_location">Map-Location</string>
+
+    <string-array name="table">
+        <item>الفرقه الاولى - نظم</item>
+        <item>الفرقه الاولى - تجاره</item>
+
+        <item>الفرقه الثانيه - نظم</item>
+        <item>الفرقه الثانيه - تجاره</item>
+
+        <item>الفرقه الثالثه - نظم</item>
+        <item>الفرقه الثالثه - تجاره</item>
+
+        <item>الفرقه الرابعه - نظم</item>
+        <item>الفرقه الرابعه - تجاره</item>
+
+    </string-array>
+    <string name="home_nav">Home</string>
+    <string name="book_nav">Book</string>
+    <string name="profile_nav">Profile</string>
+    <string name="menu_nav">Menu</string>
+
+    <string name="website">Website</string>
+    <string name="table_s">Table\'s</string>
+    <string name="map">Map</string>
+    <string name="setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="logout">Logout</string>
+
+    <string name="view_website_institute">view website institute</string>
+    <string name="table_university_hear">table university hear</string>
+    <string name="find_us">Find us</string>
+    <string name="change_book_setting">Change book setting</string>
+    <string name="arabic_english">Arabic, English</string>
+    <string name="exit_the_program">Exit the program</string>
+    <string name="password">Password</string>
+    <string name="create_new_account">Create New Account...</string>
+    <string name="user_name">User Name</string>
+    <string name="id_number">Student Code</string>
+    <string name="phone_number">Phone number</string>
+    <string name="register">Register</string>
+    <string name="java">Java</string>
+    <string name="type_a_message">Type a message...</string>
+    <string name="your_comment_here">Your Comment here ...</string>
+    <string name="add_image">Add Image</string>
+    <string name="type_a_description">type a description</string>
+    <string name="post">Post..</string>
+    <string name="emotatwera">Emotatwera</string>
+    <string name="score_0">Score: 0</string>
+    <string name="question_0_5">Question: 0/5</string>
+    <string name="some">must be add some message</string>
+    <string name="muste">must be add some message</string>
+    <string name="please_select">Please select an answer</string>
+    <string name="ok">OK</string>
+    <string name="q">Question:</string>
+    <string name="con">Confirm</string>
+    <string name="scor">Score:</string>
+    <string name="A">Answer A is correct</string>
+    <string name="B">Answer B is correct</string>
+    <string name="C">Answer C is correct</string>
+    <string name="D">Answer D is correct</string>
+    <string name="Next">Next</string>
+    <string name="Finish">Finish</string>
+    <string name="complete">Congratulation your complete quiz chapter 1 successful   your score is</string>
+    <string name="not">No internet connection   Score in this quiz not calculate   try again</string>
+    <string name="ok_">OK</string>
+    <string name="arelo">if you exit for this quiz you are loss score exam..</string>
+    <string name="cancel">cancel</string>
+
+</resources>

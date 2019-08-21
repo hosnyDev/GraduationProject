@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_C3_B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Fragment.Book.Book_Bassem.BOOK.Chapter_3_bassem.Chapter_3_b_Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="الفصل الثالث \n الانترنت"
+                android:textColor="#C62828"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="3-1 مقدمة عن شبكة الإنترنت:"
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt1C3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="شبكة الإنترنت (Internet) هى شبكة عالمية تضم ملايين الحواسيب (Computers) وغيرها من الأجهزة الإلكترونية وتكون متصلة ببعضها البعض بغرض تبادل البيانات والأخبار والآراء. وتُعد الإنترنت أكبر شبكة حاسوبية في العالم وذلك نظراً للكم الهائل من الحواسيب والخوادم (Servers) المتصلة ببعضها البعض من حول العالم بواسطة الموجّهات (Routers) والمبدلات (Switches) فهي شبيهة بآلية عملها بالشبكات المنزلية أو تلك الموجودة في الشركات ولكنها تختلف بعدد الأجهزة المتصلة فيها.
+وتعد الكيفية التي يعمل بها الإنترنت معقدة ودقيقة جداً، لكن وبشكل عام فإن الإنترنت عبارة عن مجموعة من الكابلات المادية التي تشكل أسلاك النحاس، وكابلات التلفاز، وكابلات الألياف البصرية، وعندما يطلب شخص موقع ويب يرسل جهاز الكمبيوتر طلباً عبر هذه الأسلاك لما يسمى الخادم  (Server) فيبحث هذا الخادم عن معلومات هذا الموقع ويرسلها إلى جهاز الكمبيوتر خلال ثوانٍ معدودة، ومن الجدير بالذكر أن الإنترنت الاسلكي يعتمد أيضاً على الأسلاك المادية للوصول إلى الإنترنت.
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="3-2 مكونات الإنترنت:"
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt2C3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="وتتكون الانترنت من:
+1.	مجتمع المستفيدين من الإنترنت من الأفراد والمؤسسات.
+2.	التكنولوجيا والتي تضم الاجهزة والبرمجيات التي تربط أقسام الإنترنت والمستفيدين.
+3.	إدارة الإنترنت والتي ترتكز على مجموعة اتفاقيات عالمية ومشاورات بين المهندسين والتنفيذ بواسطة الهيئات العامة والجهات الخاصة التي تقوم مجتمعة بتخصيص العناوين وصيانة الممرات (Routes).
+4.	تجارة الوصول إلى الإنترنت والتي تبدأ بمجهزي الخدمة في القطاعين العام والخاص وتوفر الوصول إلى الإنترنت بواسطة الخطوط التلفونية والحواسيب الشخصية .
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="3-3 مميزات شبكة الإنترنت :"
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt3C3b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="الإنترنت هو واحد من أكثر الوسائل التكنولوجية المستعملة في العصر الحالي، لما له من فوائد مختلفة وعلى كافة المجالات والأصعدة، ففوائد الإنترنت كثيرة ومتنوعة؛ حيث استطاعت هذه التقنية أن توحد العالم وأن تجعله متصلاً مع بعضه البعض إذ إنه لا يوجد مكان بعيد بفضل الانترنت ومن هنا فقد سهل انتقال المعلومات والأخبار بين مختلف أماكن العالم على امتداد الكرة الأرضية بكافة تفاصيلها وأشكالها. هذا هو الجوهر الّذي ارتكزت عليه الشبكة العنكبوتية في عملية انتشارها الواسع التي جالت كافة أماكن العالم، ولاقت كل هذا الاعتماد الواسع والاستخدام الكبير من قبل الجميع. ومن اهم فوائد الانترنت:
+•	يساعد على تطوير عملية البحث العلمي، بسبب توفر المصادر من كتب وأبحاث ودراسات ومجلات علمية محكمة.
+•	يسهل متابعة الأخبار العالمية في لحظة وقوعها، سواءً عن طريق الكتابة أو الصور أو الصوت.
+•	يتيح للمستخدمين قراءة الجرائد والكتب المتوفرة على الشبكة العنكبوتية.
+•	يفتح المجال للنقاش مع العلماء والطلاب من مختلف التخصصات.
+•	يسهل عملية متابعة الدورات الدراسية والعلمية، ويوفرها بشكل مجاني.
+•	يسهل عملية العثور والتعرف على أصدقاء جدد، ويسهل عملية التواصل مع الأقارب والأهل من أي مكان في العالم.
+•	ينمي المهارات في استخدام الأجهزة التقنية.
+•	يتيح للأفراد ممارسة الألعاب التعليمية الجماعية، وألعاب الذكاء، وبالتالي ينمي روح المنافسة.
+•	يوفر التسلية للأفراد عن طريق مشاهدة المسلسلات، والصور، والأفلام الحصرية، وسماع الموسيقى، كما يتيح لهم تحميلها ومشاهدتها لاحقاً.
+•	يوفر الوقت والجهد في إيصال المعلومات.
+•	يعتبر وسيلة ربحية للكثير من المشاريع التي يمكن إدارتها من داخل المنزل، وذلك يعود لمواقع التواصل الاجتماعي، ومن أهمها: الفيس بوك، كما يمكن استخدامه للشراء والدفع عبر الإنترنت.
+•	يتيح للمستخدمين رفع الملفات والوصول إليها من أي مكان تتوفر فيه خدمة الإنترنت.
+•	يتيح للمستخدمين خدمة إرسال واستقبال الرسائل والملفات والصور ومقاطع الفيديو عن طريق خدمة البريد الإلكتروني أو عن طريق التطبيقات المتوفرة على أجهزة الهواتف الذكية، كما يتيح لهم إجراء المكالمات الصوتية، ومكالمات الفيديو بشكل مجاني.
+•	يتيح للمستخدمين حجز تذاكر السفر أو التقدم بالهجرة إلى دولة والتواصل مع الدولة قبل الهجرة إليها.
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/up_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_up" />
+
+
+</RelativeLayout>

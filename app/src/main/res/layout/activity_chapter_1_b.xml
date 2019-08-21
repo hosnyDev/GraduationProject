@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_C1_B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".Fragment.Book.Book_Bassem.BOOK.Chapter_1_bassem.Chapter_1_b_Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="الفصل الأول\n الوسائط المتعددة"
+                android:textColor="#C62828"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="-1 تعريف الوسائط المتعددة :"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="هناك تعريفات عديدة للوسائط المتعددة نذكر منها ما يلى :
+
+-	ان الوسائط المتعددة  تعني اشياء كثيرة من الناحية اللغوية  او من الناحية  الشكلية  فمن الناحية اللغوية تعني  التكامل بين وسيلتين او اكثر من وسائل الاتصال والتعلم ومن الناحية الشكلية فهي تعني استخدام النص المكتوب مع الصوت المسموع مع الصورة الثابتة او المتحركة في توصيل الافكار او في التعليم او في الدعاية التجارية او في التسلية وهي تسستند في ذلك على مقولة ان اي شئ تستطيع الكلمات ان تؤدية وحدها يكون اكثر فاعلية اذا ادته الكلمات مصحوبة بالصوت المسموع والصورة.
+
+-	الوسائط المتعددة عبارة عن برامج تمزج بين الكتابات والصور الثابتة والمتحركة والتسجيلات الصوتية والرسومات الخطية لعرض الرسالة، وهي التي يستطيع المتلقي ان يتفاعل معها مستعينا بالكمبيوتر
+
+-	الوسائط المتعددة هي احدى اقوى الاشكال في نقل الافكار والبحث عن المعلومات وتجربة الافكار الجديدة لاي اتصال تم تطويرة، والقسم الاكبر من برامج التلفزيون والافلام والرسوم الفنية والكتب والمجلات والتسجيلات الاذاعية والرسوم المتحركة هي جزء من مشاريع وسائط متعددة.
+
+-	الوسائط المتعددة هي نسيج متداخل ومتكامل من مجموعة من العناصر والكونات التي تتفاعل مع بعضها البعض مكونة مايسمى التطبيق وهو مصطلح واسع الانتشار في عالم الحاسبات يرمز إلى استعمال عدة أجهزة إعلام مختلفة لحمل المعلومات مثل (النص، الصوت، الرسومات، الصور المتحركة، الفيديو، والتطبيقات التفاعلية.
+
+من التعريفات السابقة يمكن تعريف الوسائط المتعددة بانها مصطلح يتكون من مقطعين
+
+الأول Multi و يعنى متعدد
+و الثانىMedia   بمعنى وسائط،
+
+وهى عبارة عن برمجيات متعددة الوسائط تتكون من
+النص Text
+والصور Images
+والصوت Sound
+والفيديو Video
+والرسوم المتحركة Animation
+يتم تجميعها معا بواسطة برامج تسمى Authoring Programs ."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="1-2 نشأة وتطور علم الوسائط المتعددة :"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="هناك علاقة وطيدة بين تطور الحاسب الالكترونى وعلم الوسائط المتعددة ويمكن تحديد هذا التطور وفقا للمراحل التالية :
+
+-	المرحلة الأولى : اتجاه اجهزة الحاسب نحو تصغير الحجم وتسريع العمليات بفاعلية أكثر فى أداء وظائفها وقدرات أكبر فى امكانياتها .
+
+-	المرحلة الثانية : استخدام النظم الرقمية بدلا من الاشارات التماثلية وبالتالى فقد أصبح ممكنا ربط هذه المعدات مع الحاسب الذى يعمل بالنظم الرقمية .
+
+-	المرحة الثالثة : الاستفادة من ابحاث الذكاء الاصطناعى والانجازات التى تحققت فى مجالات تقنية حركة الآلات المبرمجة ( الروبوت ) والرؤية فى الحاسب والتعرف على الحروف وابحاث الكلام مما أضاف ابعادا جديدة الى دمج المعدات المختلفة بآليات الذكاء الاصطناعى وحقق تزاوجا بين موضوعات البحث .
+
+-	المرحلة الرابعة : انتشار شبكة الانترنت وتطبيقاتها خصوصا عبر محركات البحث ومواقع التواصل الاجتماعى وعملية تهيئتهم وتحسينهم SEO and SMO مع تطور تكنولوجيا الاتصالات وتطبيقات التليفون المحمول Mobil Application .
+
+
+وقد ظهر مصطلح الوسائط المتعددة في مجال تقنيات التعليم Instructional Technology  في بداية السبعينات من هذا القرن وكان يقصد به استخدام وسيلتين تعليميتين أو أكثر معا في الدرس الواحد كالصور الثابتة مع التسجيل السمعي وذلك لتوضيح المحتوى الدراسي أثناء التدريس وتطور معنى الوسائط المتعددة في بداية التسعينات من نفس القرن وذلك لسيادة الكمبيوتر في التعليم وظهور التقنيات المعاصرة والتكنولوجيا الحديثة، وقامت شركة مايكروسوفت عام 1991 بتشكيل منظمة جمعية تسويق الوسائط المتعددة للحاسب الشخصى من أجل انشاء معايير للوسائط المتعددة فى الحاسب وقد انشات هذه الجمعية عدة معايير للوسائط المتعددة فى الحاسب تدعى MPC1   MPC2 وهى ترخص شعارها وعلامتها التجارية للمصنعين الذين يتوافق عتادهم وبرمجياتهم مع هذه المعايير .
+"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="1-3 خصائص الوسائط المتعددة:"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="تتميز الوسائط المتعددة بالعديد من الخصائص كما يلى :
+
+.	التكاملية Integrity:
+هو عبارة عن استخدام اكثر من وسيطين في الاطار الواحد بشكل تفاعلي وليس مستقل وحتى يتحقق التكامل بشكل جيد لابد من التقيد بعدة امور نذكر بعض منها :
+	لا يتكرر التعليق الصوتي لنفس محتوى النص المكتوب.
+	عدم استخدام الصوت منفردا دون مصاحبة بعض المواد البصرية مثل الرسوم المتحركة او صدور لقطات الفديو وذلك لانه اهم مميزات تلك البرامج استخدام اكثر من حاسة.
+	لا يجوز التعليق الصوتي قبل ظهور الصورة.
+	عدم الجمع بين وسيلتين بصريتين في نفس الاطار مثل عرض رسوم متحركة في نافذة ومقاطع من لقطات فيديو في نافذة مجاورة.
+	ربط الصورة والرسوم الثابته التي تتحدث عن فكرة معينه او مفهوم محدد بواسطة خلفية موسيقية واحدة غير متقطعة لان ذلك يوحي بالتتابع لموضوع واحد.
+	عدم استخدام المؤثرات الصوتية مع التعليق الصوتي بمعنى لابد ان تكون الموسيقى خافتة.
+
+
+.	التفاعلية Interactivity:
+: يشير التفاعل في مجال الوسائل المتعددة الى الفعل ورد الفعل بين المستخدم / العميل وبين ما يعرض على الشاشة ويتضمن ذلك قدرة الشخص على التحكم فيما يعرض عليه وضبطه عند اختيار زمن العرض وتسلسله وتتابعه والخيارات المتاحة من حيث القدرة على اختيارها والتجوال فيما بينها. ولذلك فان التفاعل هو العلاقة المتبادلة بين المستخدم من جهة وبين برنامج الوسائط المتعددة من ناحية اخرى وكلما زاد كم التفاعل المطروح في البرنامج كلما زادت كفاءة البرنامج فى الترويج وكذلك زادت رغبة العميل في التعامل معه والتعلم من خلاله.
+
+الفردية Individuality :
+والمقصود بها تفرد عناصر الوسائط المتعددة لتناسب المتغيرات فى شخصيات العملاء وقدراتهم واستعداداتهم وخبراتهم السابقة والتى تعتمد على الخبرات الذاتية للعميل.
+
+التنوع Diversity :
+: توفر عروض الوسائط المتعددة بيئات معرفة وتعلم متنوعة يجد فيها العميل كل ما يناسبه ويتحقق ذلك عن طريق توفير مجموعة من البدائل والخيارات المختلفة
+
+الكونية Globality :
+: تتيح تكنولوجيا الوسائط المتعددة للمستخدم / العميل التعامل مع المعلومات بكفاءة وفعالية واستفادة قصوى ويمكنه الإتصال بشبكة الإنترنت للحصول علي ما يحتاجه من معلومات في كافة مجالات العلوم.
+
+التزامن Timing :
+التزامن يعني مناسبة توقيتات تداخل العناصر المختلفة الموجودة في برنامج الوسائط المتعددة مع التعليق عليها ويراعي أن تتوافق سرعة العرض وإمكانات المستخدم ومراعاة التزامن يساعد علي تحقيق خاصيتي التكامل والتفاعل.
+
+الإتاحة Accessibility :
+وتعني اتاحة عروض الوسائط المتعددة في الوقت الذي يحتاج المستخدم الي التعامل معها و تتطلب هذه الخاصية تصميم وإنتاج مزيد من عروض الوسائط المتعددة ."
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="monospace"
+                android:gravity="right"
+                android:text="ويمكن توضيح تلك الخصائص في الشكل التالي:-"
+                android:textColor="#941F1F"
+                android:textSize="20sp"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/cab_a"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/cab_a" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_up" />
+
+
+</RelativeLayout>

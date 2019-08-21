@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/back_C4_B"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".Fragment.Book.Book_Bassem.BOOK.Chapter_4_bassem.Chapter_4_b_Activity">
+
+    <ScrollView
+        android:id="@+id/scrollView_4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="الفصل الرابع \n لغة html"
+                android:textColor="#C62828"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="4-1 مقدمة عن  HTML"
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/txt1C4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="الكثير من الناس يظن ان بناء المواقع عملية صعبة ولكن هذا غير صحيح وسنحاول فى هذا الفصل شرح اوامر html بطريقة سهلة وبسيطة. ومن اهم الاشياء التى سوف تساعدنا على التعلم هو ان نجرب بانفسنا كل خطوة وسوف نحاول بقدر الامكان طباعة اى شاشة يتم انشائها.
+وقبل ان نبدأ بشرح الاوامر الخاصة بلغة html سوف نتعرف اولا على معنى لغة html وكذلك الادوات التى نحتاجها لانشاء اى موقع.
+
+لغة HTML لیست لغة برمجیة كلغةC  أو JAVA أوC++ لكن هي لغة سهلة وغیر معقدة وسهلة الفهم والتعلم ولا تحتاج لمعرفة مسبقة بلغات البرمجة.
+
+و HTML هي اختصار  Hyper Text Mark-up Language:
+
+: هي عكس خطي وهي تعني الذهاب من أي نقطة إلى الاخرى بدون أن تسير في خط سير محدد. وكانت سابقا اجهزة الكمبيوتر تعمل بشكل خطي ومعنى ذلك انه عند الانتهاء من تنفيذ اى أمر نذهب للذى بعده. ولكن لغة html مختلفة فيمكن أن نذهب إلى أي مكان في أي وقت.
+•	Text: تعني النص.
+•	Mark-up: هو ما نفعله بالنص، فهى تعني توصيف النص، فنحن نقوم بتوصيف النص كما نفعل مع معالجات الكلمات فنضيف العناوين والنقاط والنص السميك وغيرها.
+•	Language: تعني اللغة، فتقنية HTML هي لغة توصيف وهي أيضاً تستخدم العديد من كلمات اللغة الإنجليزية.
+
+وتم اختراع لغة html من قبل العالم تيم بيرنرز لي في عام 1990م وكان الهدف من اختراع هذه اللغة هو تبسيط عملية وصول العلماء في جامعات مختلفة إلى البحوث التي ينشرونها. ونجح المشروع بشكل كبير وبذلك قام تيم بيرنرز لي بوضع أساس شبكة الويب كما نعرفها اليوم.
+ولغة html هي لغة تسمح بعرض المعلومات على شبكة إنترنت وما نراه عند زيارتنا لأي صفحة في الشبكة هو ترجمة المتصفح لأوامر html ولكي نرى اوامر لغة html لأي صفحة نزورها نقوم بالضغط على الزر الايمن للماوس ونختار عرض المصدر  View Source
+
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/ccb_a"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ccb_a" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="وسوف تظهر معنا هذه الشاشة عند اختيار عرض المصدر"
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/ccb_b"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ccb_b" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txt2C4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="right"
+                android:text="من المثال السابق تبدو ان اوامر html هى اوامر معقدة ويصعب فهمها ولكن مع شرح هذه الاوامر بالتدريج سوف يتضح انها لغة بسيطة ويسهل فهمها.
+وتوجد ايضا لغة xhtml التي تعني Extensible Hyper Text Mark-up Language وهي طريقة أحدث وأكثر تنظيماً لكتابة لغة html
+وبعد ان اخذنا فكرة عن لغة html  سنتعرف على الأدوات التي نحتاجها لانشاء اى موقع (في الواقع نحن نملك كل هذه الأدوات) وهذه الادوات هى:
+1.	المتصفح: وهو البرنامج الذي يمكننا من تصفح المواقع والتعرف على ما بداخل هذه المواقع وقرأتها. واكثر المتصفحات انتشاراً هو مايكروسوفت إنترنت إكسبلورر. وتوجد ايضا متصفحات أخرى مثل جوجل كروم وموزيلا فايرفوكس.
+"
+                android:textColor="#2b2b2b"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/ccb_c"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ccb_c" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="2.	محرر نصي: وهو لكتابة اوامر لغة html ويمكن ان يكون محرر بسيط مثل برنامج المفكرة Notepad وهذا البرنامج موجود في قائمة إبدأ start ثم قائمة كل البرامج All Programs ثم في قائمة الأدوات Accessories"
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/ccb_d"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ccb_d" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="وعند اختيار برنامج المفكرة من القائمة، سوف يظهر البرنامج معنا وكما هو واضح بالصورة التالية ان برنامج المفكرة هو محرر نصي بسيط جداً وسهل التعامل معه وهو مناسب لكتابة صفحات المواقع التى نريد انشائها."
+                android:textColor="#941F1F"
+                android:textSize="20sp" />
+
+
+            <ImageView
+                android:id="@+id/ccb_e"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/ccb_e" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:gravity="center_horizontal"
+                android:text="click on image to zoom"
+                android:textColor="#941F1F"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/txt3C4b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="وكما هو واضح فأن الادوات (متصفح وبرنامج المفكرة) التى نحتاجها لانشاء اى موقع موجودة بالفعل على جهاز الكمبيوتر. ويجب ان نعرف اننا لا نحتاج لأن نكون متصلين بشبكة الانترنت عند إنشاء اى موقع ولكن يمكننا أن ننشأ الموقع على جهاز الكمبيوتر الخاص بنا ثم نرفع هذا الموقع إلى شبكة الانترنت عندما ننتهي من انشائه.
+وحتى نتعلم لغة html بسهولة سوف نقسمها الى اقسام:
+1.	العناصر والوسوم
+2.	الالوان
+3.	النص
+4.	الصور
+5.	الجداول
+6.	الروابط
+"
+                android:textColor="#2b2b2b"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <ImageView
+        android:id="@+id/up_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="8dp"
+        android:visibility="gone"
+        android:src="@mipmap/ic_up" />
+
+
+</RelativeLayout>

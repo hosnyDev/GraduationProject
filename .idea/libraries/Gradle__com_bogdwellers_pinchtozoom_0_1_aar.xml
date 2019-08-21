@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.bogdwellers:pinchtozoom:0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/554e5e2f04548bdab79ab9d07b66c7d4/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/554e5e2f04548bdab79ab9d07b66c7d4/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.bogdwellers/pinchtozoom/0.1/90d7ae77cbd84889a7fe1608c14108545fd30ec7/pinchtozoom-0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
