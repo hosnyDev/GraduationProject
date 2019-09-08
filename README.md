@@ -8,10 +8,10 @@ and scan qr in id user if successful than open book activity to read the book.
 and in this app the book contains quiz , chat.
 
 ---
-status:       PUBLISHED
-technologies: [Android]
-categories:   [Education]
-languages:    [Java]
-solutions:    [Mobile]
-github:       GraduationProject
+status:       PUBLISHED 
+technologies: [Android] 
+categories:   [Education] 
+languages:    [Java] 
+solutions:    [Mobile] 
+github:       GraduationProject 
  
