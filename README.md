@@ -9,9 +9,15 @@ and in this app the book contains quiz , chat.
 
 ---
 status:       PUBLISHED 
+
 technologies: [Android] 
+
 categories:   [Education] 
+
 languages:    [Java] 
+
 solutions:    [Mobile] 
+
 github:       GraduationProject 
+
  
