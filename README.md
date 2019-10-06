@@ -18,6 +18,6 @@ languages:    [Java]
 
 solutions:    [Mobile] 
 
-github:       GraduationProject 
+ 
 
  
